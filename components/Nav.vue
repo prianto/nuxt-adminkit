@@ -1,9 +1,9 @@
 <template>
   <nav id="sidebar" class="sidebar js-sidebar" :class="{ collapsed }">
     <div class="sidebar-content js-simplebar">
-      <a class="sidebar-brand" href="index.html">
+      <NuxtLink class="sidebar-brand" to="/">
         <span class="align-middle">Project Name</span>
-      </a>
+      </NuxtLink>
 
       <ul class="sidebar-nav">
         <li class="sidebar-header">Pages</li>
